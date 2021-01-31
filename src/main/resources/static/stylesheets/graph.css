@@ -1,0 +1,98 @@
+  .chartBarsWrap.chartBarsHorizontal {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+    }
+
+  .chartBarsWrap.chartBarsHorizontal .bars b {
+    color: #222;
+    width: 100%;
+    position: relative;
+    bottom: initial;
+    top: -2em;
+    left: -10em;
+    text-align: right;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .chartBarsWrap.chartBarsHorizontal .chartBars .bars {
+    border: 0;
+  }
+
+  .chartBarsWrap.chartBarsHorizontal .chartBars .bars .bar {
+    width: 0;
+    height: 100% !important;
+    padding-right: 0.8rem;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 500;
+    -webkit-transition: 2s width cubic-bezier(0.6, 0.4, 0.4, 1.1);
+    transition: 2s width cubic-bezier(0.6, 0.4, 0.4, 1.1);
+    color: #dfc7ff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.3rem;
+  }
+
+  .chartBarsWrap.chartBarsHorizontal .chartBars .bars .bar span {
+    font-size: 0.85rem;
+    color: #dfc7ff;
+  }
+
+  .chartBarsWrap.chartBarsHorizontal .chartBars .bars .bar:after {
+    font-size: 0.6em !important;
+    margin-right: 20px;
+  }
+
+  .bars li > div {
+    background: linear-gradient(90deg, rgba(223,199,255,1) 18%, rgba(91,102,255,1) 73%, rgba(0,35,255,1) 90%);
+  }
+/* 
+  .bars li .bar.salmonBarFlat1 {
+    background-color: #222;
+    border-bottom: 4px solid #dfc7ff;
+  }
+
+  .bars li .bar.salmonBarFlat2 {
+    background-color: #222;
+    border-bottom: 4px solid #dfc7ff;
+  }
+
+  .bars li .bar.salmonBarFlat3 {
+    background-color: #222;
+    border-bottom: 4px solid #dfc7ff;
+  }
+
+  .bars li .bar.salmonBarFlat4 {
+    background-color: #222;
+    border-bottom: 4px solid #7b16ff;
+  }
+
+  .bars li .bar.salmonBarFlat5 {
+    background-color: #222;
+    border-bottom: 4px solid #dfc7ff;
+  }
+
+  .bars li .bar.salmonBarFlat6 {
+    background-color: #222;
+    border-bottom: 4px solid #dfc7ff;
+  }
+
+  .bars li .bar.salmonBarFlat7 {
+    background-color: #222;
+    border-bottom: 4px solid #dfc7ff;
+  }
+
+  .bars li .bar.salmonBarFlat8 {
+    background-color: #222;
+    border-bottom: 4px solid  #7b16ff;
+  }
+
+  .bars li .bar.salmonBarFlat9 {
+    background: linear-gradient(90deg, rgba(223,199,255,1) 41%, rgba(34,34,34,1) 73%);
+  }
+
+  .bars li .bar.salmonBarFlat10 {
+    background: linear-gradient(90deg, rgba(223,199,255,1) 41%, rgba(34,34,34,1) 73%);
+  } */

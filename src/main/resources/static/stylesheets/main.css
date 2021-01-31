@@ -1,0 +1,81 @@
+/* sec5 */
+div.namecard {
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.namecard > span.sp1 {
+    display: block;
+    color: rgba(0,35,255,1);
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 50px;
+    font-weight: 500;
+}
+
+div.namecard > div.card {
+    width: 100%;
+    height: 400px;
+}
+
+div.namecard > div.card > form > fieldset.fs-frm > input, 
+div.namecard > div.card > form > fieldset.fs-frm > textarea {
+    border: 1px solid #777 !important;
+    box-sizing: border-box !important;
+    /* background: #030303 !important; */
+    padding: 14px 14px !important;
+    margin-bottom: 20px !important;
+    color: #777 !important;
+}
+
+div.namecard > span.sp2 {
+    display: block;
+    font-size: 16px;
+    text-align: right;
+    padding-bottom: 50px;
+    color: rgba(0,35,255,1);
+    font-weight: 500;
+}
+
+div.namecard > div.card > form > fieldset.fs-frm [type="submit"] {
+    width: auto !important;
+    margin: 0 auto !important;
+    cursor: pointer;
+    margin-top: 40px;
+    padding: 20px 50px !important;
+    border-radius: 40px !important;
+    background-color: #fff;
+}
+
+.circle {
+    position: relative; 
+    top: 30%;
+    width: 27%;
+    left: 1450px;
+}
+
+.circle2 {
+    position: relative; 
+    top: 50%;
+    width: 23%;
+    left: 1500px;
+}
+
+.st0{fill:#dfc6ff;}
+
+.proj-wrap > .proj-content > .desc > .project-desc {
+  color: #222;
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 35px;
+  text-align: right;
+}
+
+.github img {
+    width: 2rem;
+    height: 2rem;
+}
+
+
